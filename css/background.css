@@ -16,12 +16,17 @@
   transform: rotate(20.42deg);
 }
 
+.body__plus2:hover {
+  transform: rotate(360deg);
+  transition: all 1.5s;
+}
+
 .body__plus3 {
   position: absolute;
   object-fit: contain;
   width: 20px;
   left: 50vw;
-  top: 120vh;
+  top: 200vh;
   transform: rotate(7.49deg);
 }
 
@@ -55,6 +60,11 @@
   left: 150px;
 }
 
+.body__green-orange-circle:hover {
+  animation-name: move;
+  animation-duration: 4s;
+}
+
 @media screen and (max-width: 1250px) {
   body {
     background: url(../images/background-gren-orange-circle.svg) no-repeat;
@@ -68,7 +78,7 @@
   }
 
   .body__plus3 {
-    top: 115vh;
+    top: 180vh;
   }
 
   .body__circle-loading1 {

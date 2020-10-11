@@ -25,6 +25,17 @@
   margin: 0;
 }
 
+.second-section__stars:hover .star {
+  transform: rotate(288deg);
+  transition: 1s;
+  animation: airplane-fly 1s;
+}
+
+.second-image:active {
+  transform: scale(1.5);
+  transition: all 3s;
+}
+
 .second-section__text {
   font-family: 'Mulish', sans-serif;
   font-weight: normal;
@@ -58,6 +69,13 @@
   width: 384px;
   height: 491px;
   z-index: 1;
+}
+
+@media screen and (max-width: 1250px) {
+  .second-image:active {
+    transform: none;
+    transition: none;
+  }
 }
 
 .second-image__part1 {

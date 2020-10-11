@@ -1,44 +1,17 @@
-.star:hover {
-  transform: rotate(288deg);
-  transition: 1s;
-}
-
-.second-image:active {
-  transform: scale(1.5);
-  transition: all 3s;
-}
-
-.first-section__button:hover {
-  transform: scale(1.2);
-  transition: all 0.3s;
-}
-
-.info-column__link:hover {
-  color: #a05e17;
-}
-
-.body__plus2:hover {
-  transform: rotate(360deg);
-  transition: all 1.5s;
-}
-
-.body__green-orange-circle:hover {
-  animation-name: move;
-  animation-duration: 4s;
-}
-
-@media screen and (max-width: 1250px) {
-  .second-image:active {
-    transform: none;
-    transition: none;
-  }
-}
-
 @keyframes move {
-  form {
+  from {
     bottom: 120px;
   }
   to {
     bottom: 1200px;
+  }
+}
+
+@keyframes airplane-fly {
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
   }
 }

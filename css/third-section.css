@@ -22,7 +22,9 @@
   font-size: 1.0625rem;
   margin-right: 10px;
 }
-
+.third-section__link:hover {
+  color: #a05e17;
+}
 .third-section__row {
   margin-left: 46px;
 }
@@ -57,6 +59,10 @@
   font-size: 0.9375rem;
   line-height: 28px;
   color: #fb8f1d;
+}
+
+.info-column__link:hover {
+  color: #a05e17;
 }
 
 @media screen and (max-width: 1250px) {

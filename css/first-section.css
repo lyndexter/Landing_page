@@ -37,6 +37,11 @@
   font-size: 1rem;
 }
 
+.first-section__button:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
 @media screen and (max-width: 1250px) and (min-width: 800px) {
   .first-section__image {
     width: 47vw;
