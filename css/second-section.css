@@ -1,0 +1,145 @@
+.second-section {
+  margin-top: 79px;
+  height: 774px;
+}
+
+.second-section__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 450px;
+  margin-left: 132.4px;
+}
+
+.second-section__title {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 2.25rem;
+  color: #000000;
+  margin-bottom: 145px;
+  margin-top: 79px;
+}
+
+.second-section__stars {
+  width: 189px;
+  margin: 0;
+}
+
+.second-section__text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 36px;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.second-section__author-name {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 1.375rem;
+  color: #000000;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.second-section_author-profession {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: 0px;
+}
+
+.second-image {
+  /* background-position: center; */
+  position: relative;
+  top: 189px;
+  width: 384px;
+  height: 491px;
+  z-index: 1;
+}
+
+.second-image__part1 {
+  border-radius: 14px;
+}
+
+.second-image__part2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.second-image__part3 {
+  position: absolute;
+  right: 62px;
+  bottom: 0;
+}
+.second-image__part4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.second-image__part5 {
+  position: absolute;
+  object-fit: contain;
+  width: 32px;
+  left: -14px;
+  bottom: -14px;
+}
+.body__circle-loading4 {
+  object-fit: contain;
+  width: 42px;
+  position: absolute;
+  right: -18px;
+  top: -21px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1250px) and (min-width: 700px) {
+  .second-section__info {
+    margin: 20px;
+  }
+
+  .second-image {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .second-section {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: auto;
+  }
+
+  .second-section__info {
+    margin-left: 20px;
+    width: 90vw;
+  }
+
+  .second-section__title {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .second-section__text {
+    width: 90vw;
+  }
+  .second-image {
+    top: 0;
+    margin-bottom: 20px;
+  }
+
+  .body__circle-loading4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .second-image {
+    display: none;
+  }
+}

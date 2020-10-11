@@ -1,0 +1,122 @@
+.header {
+  margin-top: 35px;
+}
+
+.burger {
+  font-size: 30px;
+  color: #b8becd;
+  margin-right: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.menu {
+  align-items: flex-end;
+  width: 317px;
+}
+
+.menu__link {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #b8becd;
+}
+
+.outline,
+.menu__link:hover {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #202336;
+}
+
+.button__login {
+  width: 132px;
+  height: 44px;
+  color: #fb8f1d;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.button__register {
+  width: 132px;
+  height: 44px;
+  color: #fff;
+  background: #fb8f1d;
+  border: 1px solid #fb8f1d;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 18px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .main_header {
+    position: fixed;
+    z-index: 3;
+    background-color: #fff;
+    height: 55px;
+    width: 100vw;
+  }
+  .burger {
+    position: fixed;
+    display: block;
+    margin: 15px;
+    z-index: 2;
+    align-self: flex-start;
+  }
+
+  .header {
+    position: fixed;
+    left: -100%;
+    width: 250px;
+    height: 100vh;
+    background: #f8f8f8;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    margin-top: 40px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .button__register {
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  #check:checked ~ .header {
+    left: 0;
+    transition: 0.5s;
+  }
+
+  #check:not(:checked) ~ .header {
+    left: -100%;
+    transition: 0.5s;
+  }
+}

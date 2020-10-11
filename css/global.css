@@ -1,0 +1,41 @@
+body {
+  background: #fff;
+  color: #000000;
+  position: relative;
+
+  background: url(../images/background-gren-orange-circle.svg) no-repeat,
+    url(../images/background-loading-circle.svg) no-repeat;
+  background-position: top 37px center, left 242px top 310px;
+  background-size: 35px, 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fb8f1d;
+}
+
+button {
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 1206px;
+  margin: 0 auto;
+}
+
+.container-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-gray {
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+  :root {
+    font-size: 12px;
+  }
+}

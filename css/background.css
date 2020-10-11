@@ -1,0 +1,103 @@
+.body__plus1 {
+  object-fit: contain;
+  width: 16px;
+  position: absolute;
+  left: 87vw;
+  top: 262px;
+  transform: rotate(9.99deg);
+}
+
+.body__plus2 {
+  object-fit: contain;
+  width: 20px;
+  position: absolute;
+  left: 613px;
+  top: 646px;
+  transform: rotate(20.42deg);
+}
+
+.body__plus3 {
+  position: absolute;
+  object-fit: contain;
+  width: 20px;
+  left: 50vw;
+  top: 120vh;
+  transform: rotate(7.49deg);
+}
+
+.body__circle-loading1 {
+  object-fit: contain;
+  width: 22px;
+  position: absolute;
+  left: 10vw;
+  top: 1261px;
+}
+
+.body__circle-loading2 {
+  object-fit: contain;
+  width: 20px;
+  position: absolute;
+  left: 138px;
+  bottom: 523px;
+}
+
+.body__circle-loading3 {
+  object-fit: contain;
+  width: 20px;
+  position: absolute;
+  left: 975px;
+  bottom: 284px;
+}
+
+.body__green-orange-circle {
+  position: absolute;
+  bottom: 120px;
+  left: 150px;
+}
+
+@media screen and (max-width: 1250px) {
+  body {
+    background: url(../images/background-gren-orange-circle.svg) no-repeat;
+
+    background-position: top 37px center;
+    background-size: 35px;
+  }
+
+  .body__plus1 {
+    display: none;
+  }
+
+  .body__plus3 {
+    top: 115vh;
+  }
+
+  .body__circle-loading1 {
+    display: none;
+  }
+
+  .body__circle-loading2 {
+    display: none;
+  }
+
+  .body__circle-loading3 {
+    display: none;
+  }
+
+  .body__green-orange-circle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-image: none;
+  }
+
+  .body__plus2 {
+    display: none;
+  }
+
+  .body__plus3 {
+    display: none;
+  }
+}
