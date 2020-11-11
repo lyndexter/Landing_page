@@ -31,11 +31,6 @@
   animation: airplane-fly 1s;
 }
 
-.second-image:active {
-  transform: scale(1.5);
-  transition: all 3s;
-}
-
 .second-section__text {
   font-family: 'Mulish', sans-serif;
   font-weight: normal;
@@ -69,6 +64,11 @@
   width: 384px;
   height: 491px;
   z-index: 1;
+}
+
+.second-image:active {
+  transform: scale(1.5);
+  transition: all 3s;
 }
 
 @media screen and (max-width: 1250px) {

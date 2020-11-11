@@ -35,11 +35,11 @@
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 1rem;
+  transition: all 0.3s;
 }
 
 .first-section__button:hover {
   transform: scale(1.2);
-  transition: all 0.3s;
 }
 
 @media screen and (max-width: 1250px) and (min-width: 800px) {
